@@ -7,7 +7,7 @@ function App(): JSX.Element {
     <>
       <AppHeader title={"My Attendance Tracker app"} />
       <AttendanceTracker />
-      <CopyrightNotice author={"testing"} year={new Date().getFullYear()} />
+      <CopyrightNotice author={"testing"} year={new Date().getFullYear()}/>
     </>
   );
 }
